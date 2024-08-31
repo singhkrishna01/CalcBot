@@ -1,0 +1,134 @@
+.numbers {
+  /* background-color: var(--VeryDarkDesaturatedBlue2); */
+  width: 500px;
+  padding: 2rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  min-height: 400px;
+  display: grid;
+  grid-template-areas:
+    "seven eight nine del"
+    "four five six addi"
+    "one two three subb"
+    "point zeroo divide multy"
+    "resetbtn resetbtn equalbtn equalbtn";
+  justify-content: space-between;
+  /* grid-gap: 10px; */
+  grid-column-gap: 10px;
+  border-radius: 10px;
+}
+
+.numbers button {
+  /* background-color: rgb(255, 255, 255); */
+  width: 6.2rem;
+  height: 2.8rem;
+  border-radius: 10px;
+  margin: 1rem 0;
+  cursor: pointer;
+  font-family: "Spartan", sans-serif;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.numbers button p {
+  padding: 0;
+  margin: 0;
+  height: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seven {
+  grid-area: seven;
+  margin-top: 0 !important;
+}
+.eight {
+  grid-area: eight;
+  margin-top: 0 !important;
+}
+.nine {
+  grid-area: nine;
+  margin-top: 0 !important;
+}
+.del {
+  grid-area: del;
+  margin-top: 0 !important;
+}
+
+.del {
+  /* background-color: var(--DesaturatedDarkBlue1) !important; */
+  border-radius: 10px;
+  /* color: white; */
+  /* border-color: var(--DesaturatedDarkBlue2); */
+}
+
+.four {
+  grid-area: four;
+  margin-left: 2rem;
+}
+.five {
+  grid-area: five;
+}
+.six {
+  grid-area: six;
+}
+.add {
+  grid-area: addi;
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.sub {
+  grid-area: subb;
+}
+
+.point {
+  grid-area: point;
+}
+.zero {
+  grid-area: zeroo;
+}
+.divide {
+  grid-area: divide;
+}
+.multy {
+  grid-area: multy;
+}
+
+.reset {
+}
+.equal {
+}
+
+.resetbtn {
+  /* background-color: var(--DesaturatedDarkBlue1) !important; */
+  /* border-color: var(--DesaturatedDarkBlue2); */
+  /* color: white; */
+  border-radius: 10px;
+  grid-area: resetbtn;
+  cursor: pointer;
+  /* width: auto; */
+  width: 13.2rem !important;
+  margin-bottom: 0 !important;
+  /* border-bottom: 2px solid; */
+}
+
+.equalbtn {
+  /* background-color: var(--Red) !important;
+  color: white; */
+  border-radius: 10px;
+  grid-area: equalbtn;
+  cursor: pointer;
+  width: 13.2rem !important;
+  margin-bottom: 0 !important;
+  /* border-color: var(--DarkRed); */
+}
